@@ -13,12 +13,12 @@ $ make clean
 rm -vf bin/*
 
 $ make
-go build -o bin/test github.com/schu/test/cmd
+go build -o bin/test github.com/surajssd/packrtest/cmd
 cd cmd; packr2
-/home/hummer/go/src/github.com/schu/test/cmd
-go build -o bin/test-fat github.com/schu/test/cmd
+/home/hummer/go/src/github.com/surajssd/packrtest/cmd
+go build -o bin/test-fat github.com/surajssd/packrtest/cmd
 cd cmd; packr2 clean
-/home/hummer/go/src/github.com/schu/test/cmd
+/home/hummer/go/src/github.com/surajssd/packrtest/cmd
 ```
 
 See what file `hello.txt` has
@@ -110,12 +110,12 @@ removed 'bin/test'
 removed 'bin/test-fat'
 
 $ make
-go build -o bin/test github.com/schu/test/cmd
+go build -o bin/test github.com/surajssd/packrtest/cmd
 cd cmd; packr2
-/home/hummer/go/src/github.com/schu/test/cmd
-go build -o bin/test-fat github.com/schu/test/cmd
+/home/hummer/go/src/github.com/surajssd/packrtest/cmd
+go build -o bin/test-fat github.com/surajssd/packrtest/cmd
 cd cmd; packr2 clean
-/home/hummer/go/src/github.com/schu/test/cmd
+/home/hummer/go/src/github.com/surajssd/packrtest/cmd
 ```
 
 Now running the code like before:
